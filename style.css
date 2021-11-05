@@ -1,88 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:wght@300;500&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
-} 
-.container{
-    width: 80%;
-    margin: 0px auto;
-    overflow: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:wght@300;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.logo{
-    width:20%;
-    float: left;
+.container {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
 }
-.logo img{
-width: 149px;
-height: 25px;
-margin-top: 56px;
+.logo {
+  width: 20%;
+  float: left;
 }
-.nav{
-    width:60%;
-    float: left;
-    margin-top:56px ;
-    margin-left:56px ;
-    overflow: hidden;
+.logo img {
+  width: 149px;
+  height: 25px;
+  margin-top: 56px;
 }
-.nav ul li{
-     display: inline;
-     padding:20px;
-     font-family: Rubik;
-    font-size: 16px;
+.nav {
+  float: left;
+  margin-top: 56px;
+  margin-left: 56px;
+  overflow: hidden;
 }
-.nav ul li a{
-    text-decoration: none;
-    color: #4F5665;;
+.nav ul li {
+  display: inline;
+  padding: 20px;
+  font-family: Rubik;
+  font-size: 16px;
 }
-.sign{
-    width: 20%;
-    float: left;
-    display:flex;
-   margin-top: 58.62px;
-    overflow: hidden;
+.nav ul li a {
+  text-decoration: none;
+  color: #4f5665;
+}
+.sign {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-top: 58.62px;
+  overflow: hidden;
+}
+.sign h3 {
+  width: 53px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  color: #0b132a;
+}
 
+button.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 25px;
+  color: rgba(245, 56, 85, 1);
+  border: 2px solid rgba(245, 56, 85, 1);
+  padding: 10px 40px;
+  background-color: transparent;
+  overflow: hidden;
 }
-.sign h3{
-width: 53px;
-height: 19px;
-font-family: Rubik;
-font-size: 16px;
-color: #0B132A;
+.text {
+  width: 50%;
+  float: left;
+  margin-top: px;
 }
-    
-button.btn{
-    font-size: 16px;
-    font-weight: 500;
-    border-radius:10px solid red;
-    color: red;
-    padding:10px 40px;
-    background-color:transparent;
-    overflow: hidden;
+.text h1 {
+  font-size: 50px;
+  font-family: Rubik;
+  font-weight: 555;
 }
-.text{
-    width: 50%;
-    float: left;
-    margin-top:px;
+.text p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Rubik;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.text h1{
-    font-size:50px;
-    font-family:Rubik;
-    font-weight: 555;
+.img {
+  width: 50%;
+  float: left;
 }
-.text p{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Rubik;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.btn button {
+  color: white;
+  background-color: red;
+  margin-top: 10px;
 }
-.img{
-    width: 50%;
-    float: left;
+
+.signin__btn {
+  text-decoration: none !important;
+  margin-right: 10px;
 }
-.btn button{
-    color: white;
-    background-color:red ;
-    margin-top: 10px;
+
+.hero__btn {
+  box-shadow: 6px 17px 54px 12px rgba(245, 56, 56, 0.36);
 }
